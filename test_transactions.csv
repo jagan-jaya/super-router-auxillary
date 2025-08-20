@@ -1,0 +1,11 @@
+id,merchant_id,amount,currency,payment_method,country_code,timestamp,status,connector_id,processing_time_ms,cost,failure_reason,retry_count,customer_id,risk_score,is_recurring,merchant_category
+b77ea99a-ded9-40f4-9091-db8bb9648c65,test_merchant,412.32,GBP,card,GB,2025-08-07 12:43:36.913575+00:00,pending,,,,,0,bdd640fb-0667-4ad1-9c80-317fa3b1799d,0.36476885381006924,False,e-commerce
+0fb93bf2-8937-4e0a-b208-34dc28c7df4a,test_merchant,36.82,USD,card,US,2025-08-07 12:43:36.914088+00:00,pending,,,,,0,23b8c1e9-3924-46de-beb1-3b9046685257,0.4523029856408025,False,marketplace
+1ce180d9-eedb-47a6-bf26-75705a261a95,test_merchant,66.97,USD,wallet,US,2025-08-07 12:43:36.914154+00:00,pending,,,,,0,bd9c66b3-ad3c-4d6d-9a3d-1fa7bc8960a9,0.3579212815507391,False,subscription
+731bc0da-89ff-4825-852f-27e0c63d66ce,test_merchant,91.38,USD,card,US,2025-08-07 12:43:36.914205+00:00,pending,,,,,0,972a8469-1641-4f82-8b9d-2434e465e150,0.37674347291529087,False,subscription
+0c875e56-bafc-426a-a3e0-c1d8f8572a6b,test_merchant,22.95,CAD,card,CA,2025-08-07 12:43:36.914248+00:00,pending,,,,,0,17fc695a-07a0-4a6e-8822-e8f36c031199,0.25365823071875376,False,e-commerce
+03bbc4f3-58f4-444b-a6eb-22a2288efb50,test_merchant,806.21,USD,wallet,US,2025-08-07 12:43:36.914290+00:00,pending,,,,,0,9a1de644-815e-46d1-bb8f-aa1837f8a88b,0.25342702464297434,False,fintech
+f8759fa4-708d-496c-81a0-ba44334df36c,test_merchant,31.25,GBP,card,GB,2025-08-07 12:43:36.914331+00:00,pending,,,,,0,b74d0fb1-32e7-4629-8fad-c1a606cb0fb3,0.19871688796655762,False,e-commerce
+a8d7a377-cf56-4e50-828e-0bf01221f8d6,test_merchant,348.32,USD,card,US,2025-08-07 12:43:36.914371+00:00,pending,,,,,0,6b65a6a4-8b81-48f6-b38a-088ca65ed389,0.33142473325952737,False,fintech
+40add0d8-f103-4cfd-867b-e1bacd9d7412,test_merchant,91.47,GBP,card,GB,2025-08-07 12:43:36.914407+00:00,pending,,,,,0,47378190-96da-4dac-b2ff-5d2a386ecbe0,0.10675282046879236,True,food_delivery
+04b7a021-d2e4-491a-86f9-32b14e985cf9,test_merchant,16.69,EUR,card,DE,2025-08-07 12:43:36.914446+00:00,pending,,,,,0,c241330b-01a9-471f-9e8a-774bcf36d58b,0.15752518137865432,False,food_delivery

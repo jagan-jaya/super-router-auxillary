@@ -1,0 +1,73 @@
+[
+  {
+    "id": "ed286693-f26f-4fab-97f5-345284dc9a62",
+    "merchant_id": "merchant_003",
+    "name": "High Value Transactions",
+    "priority": 1,
+    "conditions": {
+      "amount_min": 1000
+    },
+    "target_connectors": [
+      "stripe",
+      "adyen"
+    ],
+    "is_active": true,
+    "created_at": "2025-08-07T12:45:38.208809"
+  },
+  {
+    "id": "b4157c13-83d0-465a-ab6f-3d98771345b7",
+    "merchant_id": "merchant_003",
+    "name": "India UPI Routing",
+    "priority": 2,
+    "conditions": {
+      "country_code": [
+        "IN"
+      ],
+      "payment_method": [
+        "upi"
+      ]
+    },
+    "target_connectors": [
+      "razorpay"
+    ],
+    "is_active": true,
+    "created_at": "2025-08-07T12:45:38.208824"
+  },
+  {
+    "id": "94efae8c-e068-4fb5-91a4-adba6f3f128d",
+    "merchant_id": "merchant_003",
+    "name": "Europe Bank Transfers",
+    "priority": 3,
+    "conditions": {
+      "country_code": [
+        "DE",
+        "FR"
+      ],
+      "payment_method": [
+        "bank_transfer"
+      ]
+    },
+    "target_connectors": [
+      "mollie",
+      "adyen"
+    ],
+    "is_active": true,
+    "created_at": "2025-08-07T12:45:38.208830"
+  },
+  {
+    "id": "d8a6fda3-bdba-4400-893a-8116bb18bcc1",
+    "merchant_id": "merchant_003",
+    "name": "Low Risk Recurring",
+    "priority": 4,
+    "conditions": {
+      "is_recurring": 1.0,
+      "risk_score_max": 0.3
+    },
+    "target_connectors": [
+      "stripe",
+      "square"
+    ],
+    "is_active": true,
+    "created_at": "2025-08-07T12:45:38.208839"
+  }
+]

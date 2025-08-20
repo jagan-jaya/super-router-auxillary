@@ -1,0 +1,12 @@
+{
+  "merchant_id": "merchant_001",
+  "connector_distributions": {
+    "stripe": 0.4,
+    "adyen": 0.3,
+    "paypal": 0.15,
+    "razorpay": 0.1,
+    "mollie": 0.05
+  },
+  "is_active": true,
+  "created_at": "2025-08-07T12:45:33.948527"
+}

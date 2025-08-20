@@ -1,0 +1,198 @@
+[
+  {
+    "id": "18698b86-7e9b-4618-a0ed-a9cff5a4ac5d",
+    "name": "Stripe",
+    "type": "global",
+    "success_rate": 0.94,
+    "cost_per_transaction": 0.029,
+    "processing_time_ms": 1200,
+    "supported_payment_methods": [
+      "card",
+      "wallet"
+    ],
+    "supported_currencies": [
+      "USD",
+      "EUR",
+      "GBP",
+      "CAD"
+    ],
+    "geographic_coverage": [
+      "US",
+      "GB",
+      "DE",
+      "FR",
+      "CA",
+      "AU"
+    ],
+    "volume_capacity": 100000,
+    "current_volume": 0,
+    "is_active": true
+  },
+  {
+    "id": "1a51fc5c-abe9-440a-90fe-ccaf85788692",
+    "name": "Adyen",
+    "type": "global",
+    "success_rate": 0.92,
+    "cost_per_transaction": 0.028,
+    "processing_time_ms": 1400,
+    "supported_payment_methods": [
+      "card",
+      "wallet",
+      "bank_transfer"
+    ],
+    "supported_currencies": [
+      "USD",
+      "EUR",
+      "GBP",
+      "JPY"
+    ],
+    "geographic_coverage": [
+      "US",
+      "GB",
+      "DE",
+      "FR",
+      "JP",
+      "AU"
+    ],
+    "volume_capacity": 80000,
+    "current_volume": 0,
+    "is_active": true
+  },
+  {
+    "id": "eea2c4cb-2955-47ab-aaf0-03dc92675595",
+    "name": "PayPal",
+    "type": "global",
+    "success_rate": 0.89,
+    "cost_per_transaction": 0.034,
+    "processing_time_ms": 1800,
+    "supported_payment_methods": [
+      "wallet",
+      "card"
+    ],
+    "supported_currencies": [
+      "USD",
+      "EUR",
+      "GBP",
+      "CAD"
+    ],
+    "geographic_coverage": [
+      "US",
+      "GB",
+      "DE",
+      "FR",
+      "CA",
+      "AU"
+    ],
+    "volume_capacity": 60000,
+    "current_volume": 0,
+    "is_active": true
+  },
+  {
+    "id": "c7fdf3d7-7ab5-4645-b170-d1ef28c2901a",
+    "name": "Razorpay",
+    "type": "regional",
+    "success_rate": 0.91,
+    "cost_per_transaction": 0.022,
+    "processing_time_ms": 900,
+    "supported_payment_methods": [
+      "card",
+      "upi",
+      "wallet"
+    ],
+    "supported_currencies": [
+      "INR"
+    ],
+    "geographic_coverage": [
+      "IN"
+    ],
+    "volume_capacity": 50000,
+    "current_volume": 0,
+    "is_active": true
+  },
+  {
+    "id": "847da528-4cae-4829-bed3-b260dcef67f6",
+    "name": "Mollie",
+    "type": "regional",
+    "success_rate": 0.93,
+    "cost_per_transaction": 0.025,
+    "processing_time_ms": 1100,
+    "supported_payment_methods": [
+      "card",
+      "bank_transfer"
+    ],
+    "supported_currencies": [
+      "EUR"
+    ],
+    "geographic_coverage": [
+      "DE",
+      "FR",
+      "NL",
+      "BE"
+    ],
+    "volume_capacity": 40000,
+    "current_volume": 0,
+    "is_active": true
+  },
+  {
+    "id": "f0b3ac07-14ec-4c12-a97b-87b172f2add4",
+    "name": "Square",
+    "type": "local",
+    "success_rate": 0.95,
+    "cost_per_transaction": 0.026,
+    "processing_time_ms": 800,
+    "supported_payment_methods": [
+      "card"
+    ],
+    "supported_currencies": [
+      "USD"
+    ],
+    "geographic_coverage": [
+      "US"
+    ],
+    "volume_capacity": 30000,
+    "current_volume": 0,
+    "is_active": true
+  },
+  {
+    "id": "0477ec45-177e-4d10-8653-0f688dc47024",
+    "name": "Worldpay",
+    "type": "local",
+    "success_rate": 0.9,
+    "cost_per_transaction": 0.031,
+    "processing_time_ms": 1500,
+    "supported_payment_methods": [
+      "card",
+      "wallet"
+    ],
+    "supported_currencies": [
+      "GBP"
+    ],
+    "geographic_coverage": [
+      "GB"
+    ],
+    "volume_capacity": 25000,
+    "current_volume": 0,
+    "is_active": true
+  },
+  {
+    "id": "c4820449-7508-436a-b71a-80b9e98ab718",
+    "name": "Pagseguro",
+    "type": "local",
+    "success_rate": 0.88,
+    "cost_per_transaction": 0.035,
+    "processing_time_ms": 2000,
+    "supported_payment_methods": [
+      "card",
+      "bank_transfer"
+    ],
+    "supported_currencies": [
+      "USD"
+    ],
+    "geographic_coverage": [
+      "BR"
+    ],
+    "volume_capacity": 20000,
+    "current_volume": 0,
+    "is_active": true
+  }
+]
